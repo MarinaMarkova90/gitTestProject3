@@ -7,6 +7,6 @@
   </parent>
   <artifactId>Project-BB</artifactId>
   <packaging>war</packaging>
-  <name>reqw</name>
-  <description>qwer</description>
+  <name>Project B</name>
+  <description>Description to project B</description>
 </project>
