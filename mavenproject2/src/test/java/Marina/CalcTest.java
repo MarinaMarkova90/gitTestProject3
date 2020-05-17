@@ -1,14 +1,16 @@
-package mavenproject2;
+package Marina;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class AppTest {
-	@Test
-	public void App() {
+import Marina.Calc.Calc;
 
-	App app = new App();
+public class CalcTest {
+	@Test
+	public void Calc() {
+
+	Calc app = new Calc();
 	assertEquals(10, app.main(6, 4));
 	
 		

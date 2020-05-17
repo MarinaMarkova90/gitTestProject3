@@ -1,12 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>mavenproject2</groupId>
-  <artifactId>mavenproject2</artifactId>
+  <groupId>Project_A</groupId>
+  <artifactId>Project_A</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <name>Project_A</name>
+  
+  <properties>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
  
+
+ 
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-site-plugin</artifactId>
+        <configuration>
+          <locales>en,fr</locales>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+ 
+  <reporting>
+    <plugins>
+      <plugin>
+           <artifactId>maven-project-info-reports-plugin</artifactId> 
+      </plugin>
+    </plugins>
+  </reporting>
+ 
+
+  <dependencies> 
+      <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.8.1</version>
+      <type>maven-plugin</type>
+    </dependency>
+  <dependency>
+  
+  <groupId>junit</groupId>
+<artifactId>junit</artifactId>
+<version>4.12</version>
+<scope>test</scope>
+  </dependency>
+  </dependencies>
+
+
   <modules>
-  	<module>Project-BB</module>
+  	<module>Project_B</module>
+  	<module>Project_C</module>
   </modules>
 </project>

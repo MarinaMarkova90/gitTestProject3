@@ -1,6 +1,6 @@
-package mavenproject2;
+package Marina.Calc;
 
-public class App {
+public class Calc {
 
 	public int main(int a, int b) {
 		return a + b; 

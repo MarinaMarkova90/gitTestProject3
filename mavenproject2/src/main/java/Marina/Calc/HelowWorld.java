@@ -1,4 +1,4 @@
-package mavenproject2;
+package Marina.Calc;
 
 public class HelowWorld {
 	public static void main(String[] args) { 
